@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Prompt</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var nombre;
+      var edad;
+
+      //Funcion Prompt(Parametro1, Parametro2): genera una ventana emergente para el intercambio de datos con el usuario.
+      //parametro uno es el texto en la ventana (titulo, el segundo es el valor por default)
+      nombre=prompt('Ingrese su nombre','');
+      edad=prompt('Ingrese su edad','');
+
+
+
+
+      if (edad > 18) {
+        document.write('Bienvenido: '+nombre);
+        document.write(edad);
+      }else {
+        document.write('no podes ingresar a este sitio');
+      }
+
+    </script>
+  </body>
+</html>
